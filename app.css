@@ -1,0 +1,43 @@
+body{
+    background-color: #cebebe;
+}
+h1{
+    text-align: center;
+    font-family: Arima;
+    font-size: 2.5em;
+    letter-spacing: 0.15cm;
+    color: #f8edeb;
+    background-color: #415a77;
+}
+div{
+    display: inline-block;
+    text-align: center;
+    background-color: #373f51;
+    border
+    height : 170px; 
+    border : 0.8px solid #58a4b0 ;
+    border-radius : 10% ;
+    padding : 10px 20px;
+    margin : 0.45px ;
+}
+span{
+    line-height: 1em;
+    color: #7bdff2;
+}
+span:hover{
+    color:#fbff12;
+    text-decoration: solid underline;
+}
+img{
+    display: block;
+}
+img:hover{
+    background-color: #133c55;
+    border-radius:10% ;
+    position: relative;
+    bottom:8px;
+    
+    transform: scale(1.025);
+    box-shadow: 0 2px 2px 0.5px white;
+    transition : background-color 1s 0.3s;
+}
